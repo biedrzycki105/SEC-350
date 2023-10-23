@@ -1,0 +1,24 @@
+all:
+  hosts:
+  children:  
+    wan:
+      hosts:
+        10.0.17.111:
+          hostname: rw01-erik
+          lan_ip: 10.0.17.111
+      vars:
+    dmz:
+      hosts:
+      vars:
+    lan:
+      hosts:
+      vars:
+    mgmt:
+      hosts:
+      vars:
+    fw:
+      hosts:
+      vars:
+
+vars:
+  
